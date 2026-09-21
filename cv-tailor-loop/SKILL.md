@@ -1,9 +1,9 @@
 ---
-name: cv-review-loop
+name: cv-tailor-loop
 description: "Run a heavyweight 4-round CV builder/reviewer loop (isolated BUILDER, ATS REVIEWER, HUMAN REVIEWER, and ACCURACY REVIEWER roles, hard zero-fabrication gate, stop conditions) plus a Step 5 Format & Structure Review, for a specific position description. Use this ONLY when explicitly asked for the full review loop - not for routine 'tailor my CV for X' requests, which should go through a faster single-pass flow instead. This skill is deliberately slower and more thorough (multiple isolated review rounds, independent scoring, a mechanical format check) and is meant for a small number of higher-stakes applications, not every application."
 ---
 
-# CV Review Loop
+# CV Tailor Loop
 
 This skill runs a 4-round CV content loop with four isolated roles
 (BUILDER, ATS REVIEWER, HUMAN REVIEWER, ACCURACY REVIEWER), followed by a
@@ -157,7 +157,7 @@ Once gathered or inferred and confirmed, save it as a compact, durable
 setup record so future runs don't re-ask or re-analyze from scratch.
 Where exactly depends on what's available in the environment this skill
 is running in - a persistent memory/notes system if one exists, otherwise
-a plain file (e.g. `cv-review-loop-setup.md`) kept alongside the
+a plain file (e.g. `cv-tailor-loop-setup.md`) kept alongside the
 candidate's other CV materials. Whatever the mechanism, it needs to
 survive between separate runs of this skill, not just within one
 session.

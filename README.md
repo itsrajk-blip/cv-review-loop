@@ -1,4 +1,4 @@
-# CV Review Loop
+# CV Tailor Loop
 
 A Claude skill that runs a heavyweight, multi-round CV tailoring and
 review process for high-stakes job applications: four isolated AI
@@ -53,9 +53,9 @@ files. That means:
 
 ## Installation
 
-**Claude Code:** copy the `cv-review-loop/` folder into your skills
+**Claude Code:** copy the `cv-tailor-loop/` folder into your skills
 directory (typically `.claude/skills/`), so the final path is
-`.claude/skills/cv-review-loop/SKILL.md`.
+`.claude/skills/cv-tailor-loop/SKILL.md`.
 
 **Claude Cowork / claude.ai (personal skills):** upload `SKILL.md` as a
 custom/personal skill following whichever skill-upload flow your Claude
@@ -105,7 +105,7 @@ Depends on where you're running it:
 - **Cowork with persistent memory:** in memory, if that's available in
   your account.
 - **Claude Code:** a file in your working directory or repo (e.g.
-  `cv-review-loop-setup.md`).
+  `cv-tailor-loop-setup.md`).
 
 Whatever the mechanism, it needs to survive between separate runs, not
 just within one session - if your setup isn't persisting, check that
