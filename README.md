@@ -83,9 +83,11 @@ The first time you use this, the skill will ask you for:
    AI-sounding.** Fine to skip this and let it grow over time as you
    catch things during review.
 
-From those CVs, it infers your section order, highlight count, expertise
-category structure, and how your title/framing shifts by role level -
-and shows you what it inferred so you can correct it before it's used.
+From those CVs, it infers your actual section structure (whatever
+sections you use, in whatever order, with whatever per-section format -
+nothing assumed or templated in), how your title/framing shifts by role
+level, and your writing style - and shows you what it inferred so you can
+correct it before it's used.
 
 ### Every run after that
 

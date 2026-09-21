@@ -50,7 +50,7 @@ don't guess, and don't start drafting on an assumption.
    below).
 
    The one exception: if the candidate says they *do* keep a maintained
-   master/highlights doc separate from their applied CVs, use that as the
+   master/achievements doc separate from their applied CVs, use that as the
    primary facts source directly rather than reconstructing one - it's
    already the more authoritative version.
 
@@ -112,16 +112,19 @@ document the candidate already had or one built here from their samples.
 
 Read the same sample CVs and extract, rather than ask for:
 
-- **Section order** (Highlights/Summary, Core Expertise/Skills,
-  Experience, Education, Tools, etc. - whatever the candidate actually
-  uses and in what sequence).
-- **Highlight/summary bullet count** - the typical number, and whether it
-  ever varies (e.g. 3 by default, 4 on one example - note that as a real
-  variation, not noise, and ask why if it isn't obvious from context).
-- **Core/expertise category count and naming pattern** - how many
-  categories, how they're typically labelled, and whether the labels
-  shift by role type (e.g. a commercial-flavoured category swapped for a
-  domain-specific one across different examples).
+- **Section order** - whatever sections the candidate's own CVs actually
+  use, under whatever names they use for them, and in what sequence.
+  Don't assume any particular section exists (no fixed template of
+  "summary + skills + experience" or anything else) - read it straight
+  off the samples.
+- **Per-section length and format** - for each section that uses bullets
+  or entries, the typical count and whether it ever varies (e.g. 3 by
+  default, 4 on one example - note that as a real variation, not noise,
+  and ask why if it isn't obvious from context). If a section groups its
+  content into named sub-categories, note how many and how they're
+  labelled, and whether the labels shift by role type - but only if the
+  candidate's own CVs actually do this, don't introduce a category
+  structure that isn't there.
 - **Title-framing logic** - if examples exist at different seniority
   levels or for different target roles, how the headline/title changes
   between them. This is often the most valuable thing to catch: people
@@ -136,16 +139,17 @@ Read the same sample CVs and extract, rather than ask for:
 
 Then state back a short, numbered summary of what was inferred and get a
 one-line confirmation before treating any of it as settled - e.g. "Here's
-what I'm seeing: 3 highlights normally, 4 core-expertise categories,
-title stays as your actual current title unless the target role is
-genuinely a level up. Does that match how you think about it, or is
-there a case where it varies that I'm not seeing here?"
+what I'm seeing: your CVs always run [Section A] → [Section B] → [Section
+C] in that order, [Section A] normally has 3 bullets, title stays as your
+actual current title unless the target role is genuinely a level up.
+Does that match how you think about it, or is there a case where it
+varies that I'm not seeing here?"
 
 If only one example CV is provided, say so plainly and flag the inferred
-rules as provisional ("I'm inferring 3 highlights is your standard since
-that's the only example I have - flag it if it varies by role level").
-Don't present a single-example inference with the same confidence as a
-pattern confirmed across several examples.
+rules as provisional ("I'm inferring 3 bullets in [Section A] is your
+standard since that's the only example I have - flag it if it varies by
+role level"). Don't present a single-example inference with the same
+confidence as a pattern confirmed across several examples.
 
 ### Saving setup for future runs
 
@@ -163,10 +167,10 @@ What it should hold:
   master doc, or the reconciled pool built from their sample CVs), plus
   any conflicts that got flagged and how they were resolved - so the same
   conflict doesn't need re-asking next time a new sample surfaces it.
-- The confirmed CV structure rules (section order, highlight count and
-  any known variation, category count/naming pattern, title-framing
-  logic, style fingerprints), and which example CVs they were learned
-  from.
+- The confirmed CV structure rules (section order, per-section length and
+  any known variation, any sub-category structure a section actually
+  uses, title-framing logic, style fingerprints), and which example CVs
+  they were learned from.
 - The employment timeline table.
 - The authenticity anchors list, kept as compact rule-name + one-line
   statements, not full explanatory prose (see the HUMAN REVIEWER section
@@ -277,11 +281,15 @@ text, it's mandatory as the ultimate fact source everything must still
 trace back to.
 
 **Structural checklist** - use the CV structure rules from the saved
-setup so reviewers aren't relitigating structure every round:
-- Highlight count: the learned default, only deviate if the PD genuinely
-  needs it.
-- Core/expertise categories: the learned count and pattern; only add more
-  with a clear reason.
+setup so reviewers aren't relitigating structure every round. All
+sections of the tailored CV should match the sections that appear in the
+candidate's own base CVs - same sections, same order, same general
+shape - not a structure invented for this skill:
+- Section order and per-section length: the learned defaults from the
+  saved setup, only deviate if the PD genuinely needs it.
+- Any sub-category structure a section actually uses in the candidate's
+  base CVs: the learned count and pattern; only add more with a clear
+  reason.
 - Title framing: match the target role's actual level, using the learned
   title-framing logic. State the framing decision in one line at the top
   of the draft file (e.g. "Framed at current level - PD reads as
@@ -294,26 +302,26 @@ setup so reviewers aren't relitigating structure every round:
   authenticity anchors.
 
 If the PD genuinely seems to need a structural deviation from the saved
-setup (a category count, a title-framing call that doesn't match the
-learned pattern), flag it as a deliberate one-line decision rather than
-silently drifting from what was previously confirmed - and mention it's
-worth adding to the setup file if it turns out to be a real recurring
-pattern rather than a one-off.
+setup (a different section structure, a title-framing call that doesn't
+match the learned pattern), flag it as a deliberate one-line decision
+rather than silently drifting from what was previously confirmed - and
+mention it's worth adding to the setup file if it turns out to be a real
+recurring pattern rather than a one-off.
 
 **Reuse and reframe past CVs** (if kept) - don't draft from the master
 alone every time. Before drafting, scan for a past tailored CV whose
 target role is close in level, scope, or theme to this PD. Where a past
-Highlight or bullet already says what this PD needs, in wording that's
-already been through review and approved, reuse or lightly reframe it
-rather than re-deriving a new sentence from the raw master facts. Two
-patterns for how much to reuse:
+bullet or section entry already says what this PD needs, in wording
+that's already been through review and approved, reuse or lightly
+reframe it rather than re-deriving a new sentence from the raw master
+facts. Two patterns for how much to reuse:
 - **Whole-CV base**: when an existing tailored CV's overall scope and
   framing genuinely matches the target role (not just a similar job
   title), copy that CV as the round 1 starting point instead of the
   master.
 - **Cherry-pick**: when only the framing is close but the underlying
   scope differs, start fresh from the master and pull in individual
-  bullets/Highlights piecemeal.
+  bullets/entries piecemeal.
 
 Never treat a past CV's wording as automatically current. Cross-check
 anything reused against the present-day master facts before reusing it -
@@ -321,8 +329,8 @@ past CVs can carry wording the master has since superseded. If a past CV
 and the current master disagree, the master wins.
 
 **Citation format**: every bullet gets a bracketed source tag - e.g.
-`[Master CV, <Company> bullet 2]`, `[Reframed from <Company> CV, Highlight
-2 - verified current against master]`, or `[New fact confirmed this
+`[Master CV, <Company> bullet 2]`, `[Reframed from <Company> CV, <Section>
+entry 2 - verified current against master]`, or `[New fact confirmed this
 session]` if it's genuinely new. No bullet without a tag. A "Reframed
 from" tag still needs the underlying fact to trace back to the master -
 reusing another CV's wording doesn't exempt a claim from the fabrication
@@ -402,10 +410,12 @@ of 40 for interview for the given PD?
 specifically, and run these named checks, not just a general vibe read:
 - Genericise check: was a named method, specific number, or established
   descriptor swapped for something vaguer?
-- Restatement check: does a Highlight just paraphrase its own experience
-  bullet instead of saying something distinct?
+- Restatement check: if the candidate's format has both a top-level
+  summary-type section and a detailed experience section, does a
+  summary-level bullet just paraphrase its own experience-section bullet
+  instead of saying something distinct?
 - Word-reuse check: does a distinctive word repeat across two adjacent
-  bullets/Highlights drafted in the same pass?
+  bullets drafted in the same pass, in any section?
 - Banned-phrase check: the saved anchors, plus generic interest-signalling
   openers if this includes outreach content.
 Flag every buzzword and filler line by name.
@@ -506,8 +516,10 @@ Build the final document on a scratch copy first, then check pass/fail
 against:
 
 **Structural compliance:**
-- Section order matches the saved setup's structure rules.
-- Section counts (Highlights, core categories, etc.) match the saved
+- Section order matches the saved setup's structure rules - the tailored
+  CV uses the same sections, in the same order, as the candidate's base
+  CVs.
+- Per-section counts and any sub-category structure match the saved
   rules, or deviate only with a stated justification from the content
   loop.
 - Headline/subtitle pattern matches the established format.
